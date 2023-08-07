@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/4b231a3b52.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <img src="images/logo2.png"  width="64%">
+                </div>
+        
+                <p><a href="#header">HOME</a></p>
+                <p><a href="#about">ABOUT</a></p>
+                <p><a href="#services">SERVICES</a></p>
+                <p><a href="#portfolio">PORTFOLIO</a></p>
+                <p><a href="#contact">CONTACT</a></p>
+                
+                <div class="main-text">
+                    <h1>Hi,I'm <br><span>Priyanshi</span></h1>
+                    <div class="container1">
+                        <div class="image">
+                          <img src= "images/sidephoto.png" class="img" alt="">
+                        </div>
+                    </div>
+
+                    <!-- <video src="images/video (2).mp4" width="350" autoplay loop muted></video> -->
+                </div>
+
+            </nav>
+        </div>
+    </div>
+    <!-----about section------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/profile (2).jpeg" alt="image"> 
+                </div>
+
+                <div class="about-col-2">
+                    <h1 class="title">ABOUT ME</h1>
+                    <br>
+                    <p>I am a skilled individual with a passion for technology and creativity. As a web developer, I possess a deep understanding of various programming languages and frameworks used in web development.I have honed my skills through practical experience and am capable of creating user-friendly interfaces and responsive designs.
+                        <br>
+                        <br>
+                    
+                        Through my coursework, I have gained theoretical knowledge and practical expertise in various areas of computer science, including database management, network security, operating systems, and artificial intelligence.I actively engage in self-learning, exploring new tools and techniques to enhance my knowledge and skills in data science. 
+                        <br>
+                        <br>
+
+                        In addition to my technical abilities, I possess a creative flair as a graphic designer.With my design skills, I can transform concepts and ideas into visually appealing graphics, illustrations, and user interfaces. 
+                        <br>
+                        <br>
+
+                         With a relentless drive to learn and grow, I am well-positioned to contribute to the ever-evolving world of technology and make a positive impact in my chosen field.</p>
+                         <br>
+
+                    <div class="subtitle">
+                        <p class="sublink activelink" onclick="opentab('skills')">Skills</p>
+                        <p class="sublink" onclick="opentab('experience')">Experience</p>
+                        <p class="sublink" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="subcontent activetab" id="skills">
+                        <ul>
+                            <li><span>Web Development</span><br>Full Stack Developer</li>
+                            <li><span>UI/UX</span><br>Designing Web/App Interfaces</li>
+                            <li><span>Graphic Designer</span><br>Illustration Artist</li>
+                        </ul>
+                    </div>
+
+                    <div class="subcontent" id="experience">
+                        <ul>
+                            <li><span>2021-current</span><br>Freelance Illustration Artist</li>
+                            <li><span>2023-May</span><br>Web Developer Intern at CodeClause</li>
+                            <li><span>2021-2022</span><br>Coordinator at CSI</li>
+                            
+                        </ul>
+                    </div>
+
+                    <div class="subcontent" id="education">
+                        <ul>
+                            <li><span>2021-current</span><br>B.tech (CSE) from Jaypee University,Guna</li>
+                            <li><span>2021</span><br>High School Graduation (PCM)</li>
+                            <li><span>2019</span><br>Secondary Education</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- service -->
+    <div id="services">
+        <div class="container">
+            <h1 class="title"> My Services</h1>
+            <div class="servicelist">
+                <div>
+                    <i class="fa-solid fa-code fa-lg"></i>
+                    <br> <br>
+                    <h2>Web Design</h2>
+                    <p>Specialize in creating visually stunning and user-friendly websites that leave a lasting impression. Web design services combine aesthetics, functionality, and a user-centric approach to deliver exceptional online experiences for businesses and individuals.</p>
+                    
+                </div>
+
+                <div>
+                    <i class="fa-brands fa-figma fa-lg"></i>
+                    <br> <br>
+                    <h2>UI/UX Design</h2>
+                    <p>UI design expertise ensures that websites, mobile applications, and software have intuitive interfaces that enhance user interactions and conversions. I create visually stunning designs that make navigation effortless and engage users at every touchpoint.</p>
+                    
+                </div>
+
+                <div>
+                    <i class="fa-brands fa-app-store fa-lg"></i>
+                    <br> <br>
+                    <h2>Graphic Design</h2>
+                    <p>A comprehensive range of professional graphic design services to help businesses and individuals effectively communicate their message, enhance their brand image, and captivate their target audience. With creative expertise and meticulous attention to detail.</p>
+                    
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+    <!-- portfolio-->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="title">My Work</h1>
+            <div class="worklist">
+                <div class="work">
+                    <video src="images/video (2).mp4" width="350" autoplay loop muted></video>
+                </div>
+
+                <div class="work">
+                    <video src="images/video(5).mp4" width="350" autoplay loop muted></video>
+                </div>
+
+                <div class="work">
+                    <video src="images/video(6).mp4" width="350" autoplay loop muted></video>
+                </div>
+            </div>
+
+            <div class="projects">
+                <div class="container">
+                    <div class="projectlist">
+                        <div>
+                            <h2>Apple-Vision</h2>
+                            <p>"Apple Vision" is a dynamic website built with HTML, CSS, and JavaScript.. It boasts a modern, minimalist design with captivating visuals, smooth animations, and interactive content modules. Responsive and stylish, it offers a seamless experience across devices, utilizing JavaScript for engaging features like modals, sliders, and potential 3D elements, effectively showcasing Apple's visionary ideas.</p>
+                            <a href="https://priyanshijagati.github.io/Apple-Vision/">See here</a>
+                        </div>
+        
+                        <div>
+                            <h2>Duo-Studio</h2>
+                            <p> The Duo Studio Clone, crafted using HTML, CSS, and JS, offers a seamless video collaboration experience. With an intuitive interface, users can initiate high-definition video calls effortlessly. Real-time content creation and editing are empowered through collaborative features, enabling dynamic teamwork. Prioritizing security, it employs robust encryption and customizable privacy settings for a reliable and safe video conferencing solution.</p>
+                            <a href="https://priyanshijagati.github.io/Duo-Studio/">See here</a>
+                        </div>
+        
+                        <div>
+                            <h2>Netflix-Clone</h2>
+                            <p> A HTML and CSS Netflix clone mimics the platform's UI: a header with navigation, a rotating hero for featured content, scrollable category thumbnails, responsive design, user auth, search, and a footer. It emphasizes visual appeal, consistent styling, and potential JavaScript interactions for modals and dynamic content, while adhering to copyright and legal guidelines.</p>
+                            <a href="https://priyanshijagati.github.io/Netflix-clone/">See here</a>
+                        </div>
+
+                        <div>
+                            <h2>Amazon-Clone</h2>
+                            <p>An Amazon clone is a website designed to mimic the functionality and appearance of the original Amazon e-commerce platform. It features a familiar layout with a header containing the Amazon logo, a search bar, and navigation links. Seamlessly emulating the shopping experience, it showcases products elegantly, making online retailing engaging and familiar. </p>
+                            <a href="https://priyanshijagati.github.io/Amazonclone/">See here</a>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <a href="https://github.com/priyanshijagati" class="btn">See more projects</a>
+                
+        </div>
+    </div>
+
+    <!-- Contact section -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i>  priyanshijagati1@gmail.com</p>
+                    <div class="icons">
+                        <a href=" https://www.linkedin.com/in/priyanshi-jagati-776888233/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://twitter.com/PriyanshiJagati "><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://github.com/priyanshijagati "><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <a href="images/CV.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your name" required>
+                        <input type="email" name="email" placeholder="Your email" required>
+                        <textarea name="message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2 btn3">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Copyright  © Priyanshi.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Javascript-->
+    <script>
+        var sublinks = document.getElementsByClassName("sublink");
+        var subcontents = document.getElementsByClassName("subcontent");
+
+        function opentab(tabname){
+            for(sublink of sublinks)
+            {
+                sublink.classList.remove("activelink");
+            }
+            for(subcontent of subcontents)
+            {
+                subcontent.classList.remove("activetab");
+            }
+            event.currentTarget.classList.add("activelink")
+            document.getElementById(tabname).classList.add("activetab")
+
+        }
+
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzqJtCBzobtXFIEoViAcIWQeq9B0H-xwE7Uj_Nhh69CzAV5zsgjfmed98oE-L3KJW6xfw/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(function() {
+                    msg.innerHTML =""
+                },5000)
+                form.reset()
+
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+
+    
+</body>
+</html>
